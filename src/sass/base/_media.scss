@@ -1,0 +1,138 @@
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 991px) {
+    .promo{
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .consultation {
+        padding-left: 30px;
+        .title {
+            font-size: 32px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        &__logo {
+            width: 200px;
+        }
+        &__official{
+            font-size: 11px;
+            span{
+                font-size: 15px;
+            }
+        }
+        &__phone {
+            font-size: 15px;
+        }
+    .button {
+        width: 140px;
+    }
+    }
+    .promo {
+        &__header {
+            font-size: 36px;
+        }
+        &__subheader {
+            font-size: 22px;
+        }
+    }
+    .benefits {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item {
+            &:nth-child(2) {
+                margin-top: 15px;
+            }
+            &:nth-child(3) {
+                margin-top: 15px;
+            }
+        }
+    }
+    .consultation {
+        min-height: 600px;
+        .title {
+            font-size: 24px;
+        }
+        &__descr {
+            font-size: 16px;
+        }
+        .form-feed {
+            width: 280px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .promo {
+        .header {
+            &__logo {
+                width: 180px;
+            }
+            &__official {
+                display: none;
+            }
+            &__phone {
+                font-size: 11px;
+            }
+            .button {
+                width: 120px;
+                font-size: 10px;
+            }
+        }
+        &__header {
+            font-size: 22px;
+        }
+        &__subheader {
+            font-size: 14px;
+        }
+        &__icons {
+            width: 300px;
+        }
+        &__icon {
+            width: 90px;
+            font-size: 11px;
+        }
+        .button{
+            &_main{
+                width: 200px;
+                font-size: 12px;
+            }
+        }
+        &__link {
+            font-size: 12px;
+        }
+    }
+    .benefits {
+        .title {
+            font-size: 22px;
+        }
+    }
+    .consultation {
+        min-height: 500px;
+        padding: 50px 0 50px 10px;
+        .title {
+            font-size: 20px;
+            text-align: center;
+            br {
+                display: none;
+            }
+        }
+        &__descr {
+            font-size: 13px;
+            text-align: center;
+        }
+        .feed-form {
+            width: 300px;
+        }
+    }
+}
